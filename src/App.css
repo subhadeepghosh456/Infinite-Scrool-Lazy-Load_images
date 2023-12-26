@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(3, 3, 46);
+}
+h1 {
+  color: white;
+}
+
+.loading {
+  color: white;
+}
+.image img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.lazy-img {
+  filter: blur(20px);
+}
